@@ -9,7 +9,7 @@
 		<style>
 			* {
 				font-family: "Helvetica", sans-serif;
-				font-size: 1.04em; /* 16px x 1.25% zoom = 20px */
+				font-size: 1.04em; /* 16px (or browser default) x 1.25% zoom = 20px */
 				font-weight: 300;
 				line-height: 1.4em;
 				color: #050505;
@@ -109,6 +109,7 @@
 			}
 			@media print {    
 				* {
+					/* Print to 16px (or browser default) */
 					font-size: 1em;
 				}
 				#content {
