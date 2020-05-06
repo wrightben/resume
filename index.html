@@ -9,7 +9,7 @@
 		<style>
 			* {
 				font-family: "Helvetica", sans-serif;
-				font-size: 1em;
+				font-size: 1.04em; /* 16px x 1.25% zoom = 20px */
 				font-weight: 300;
 				line-height: 1.4em;
 				color: #050505;
@@ -17,15 +17,12 @@
 				margin: 0px;
 				padding: 0px;
 			}
-			.noprint, .printonly {
-				display: inline-block;
-			}
 			.printonly {
 				display: none;
 			}
 			#content {
 				margin: 0 auto;
-				width: 720px;
+				width: 900px; /* 720 x 1.25% zoom = 900px */
 			}
 			#resume {
 				margin: 2em 0;
@@ -104,12 +101,19 @@
 			}
 			.nu {
 				text-decoration: none;
+				font-size: 1em;
 			}
 			.social {
-				height: 25px;
-				width: 25px;
+				height: 32px;
+				width: 32px;
 			}
 			@media print {    
+				* {
+					font-size: 1em;
+				}
+				#content {
+					width: 720px;
+				}
 				.noprint {
 					display: none !important;
 				}
@@ -139,18 +143,19 @@
 				<!-- Ann Arbor, MI -->
 				
 				<div id="contact">
-					<p><a href="tel:248-224-5833" class="hl nu">248.224.5833</a></p>
-					<p><a href="mailto:mail@wrightben.com" class="hl nu">mail@wrightben.com</a></p>
+					<p><a href="tel:248-224-5833" class="nu">248.224.5833</a></p>
+					<p><a href="mailto:mail@wrightben.com" class="nu">mail@wrightben.com</a></p>
 					
-					<div class="noprint">
-					<p style="margin-top: 0.4em;">
-					<a href="https://github.com/wrightben" target="_blank" title="https://github.com/wrightben"><img class="social" src="./resources/github.svg" alt="https://github.com/wrightben" /></a>
-					<a href="https://www.instagram.com/wrightben13/" target="_blank" title="https://www.instagram.com/wrightben13/"><img class="social" src="./resources/instagram.svg" alt="https://www.instagram.com/wrightben13/" /></a>
+					<!-- Screen -->					
+					<p style="margin-top: 0.4em;" class="noprint">
+						<a href="https://github.com/wrightben" target="_blank" title="https://github.com/wrightben"><img class="social" src="./resources/github.svg" alt="https://github.com/wrightben" /></a>
+						<a href="https://www.instagram.com/wrightben13/" target="_blank" title="https://www.instagram.com/wrightben13/"><img class="social" src="./resources/instagram.svg" alt="https://www.instagram.com/wrightben13/" /></a>
 					</p>
-					</div>
-					<div class="printonly">
-					<p><a href="https://github.com/wrightben" target="_blank" title="https://github.com/wrightben" style="text-decoration: none;">https://github.com/wrightben</a></p>
-					</div>
+					
+					<!-- Print -->
+					<p class="printonly">
+						<a href="https://github.com/wrightben" target="_blank" title="https://github.com/wrightben" style="text-decoration: none;">https://github.com/wrightben</a>
+					</p>
 				</div>
 
 
