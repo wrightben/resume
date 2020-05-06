@@ -9,7 +9,7 @@
 		<style>
 			* {
 				font-family: "Helvetica", sans-serif;
-				font-size: 17.6px; /* (Expected browser default) 16px x 1.25% zoom = 20px */
+				font-size: 1em;
 				font-weight: 300;
 				line-height: 1.4em;
 				color: #050505;
@@ -22,7 +22,7 @@
 			}
 			#content {
 				margin: 0 auto;
-				width: 792px; /* 720 x 1.25% zoom = 900px */
+				width: 720px;
 			}
 			#resume {
 				margin: 2em 0;
@@ -101,20 +101,12 @@
 			}
 			.nu {
 				text-decoration: none;
-				font-size: 1em;
 			}
 			.social {
-				height: 27px;
-				width: 27px;
+				height: 25px;
+				width: 25px;
 			}
 			@media print {    
-				* {
-					/* Print to 16px (expected browser default) */
-					font-size: 1em;
-				}
-				#content {
-					width: 720px;
-				}
 				.noprint {
 					display: none !important;
 				}
@@ -144,8 +136,8 @@
 				<!-- Ann Arbor, MI -->
 				
 				<div id="contact">
-					<p><a href="tel:248-224-5833" class="nu">248.224.5833</a></p>
-					<p><a href="mailto:mail@wrightben.com" class="nu">mail@wrightben.com</a></p>
+					<p><a href="tel:248-224-5833" class="hl nu">248.224.5833</a></p>
+					<p><a href="mailto:mail@wrightben.com" class="hl nu">mail@wrightben.com</a></p>
 					
 					<!-- Screen -->					
 					<p style="margin-top: 0.4em;" class="noprint">
@@ -166,7 +158,7 @@
 						<li class="lth">Software Development&nbsp;&nbsp;( Front-end/Full-stack Web Development &mdash; 15+ years )</li>
 						<li class="lstn">Extensive experience with Web Applications, HTML5 and W3C standards</li>		
 						<li class="lstn">Certification training in JavaScript and Java; Experience with C/C++, perl, PHP</li>					
-						<li class="lstn">HTML/XML, CSS, SQL, Git, Bash Scripting</li>
+						<li class="lstn">HTML/XML, CSS, SQL, Git, Bash Scripting</li>					
 					
 						<li class="lth">Marketing/Advertising agency experience&nbsp;&nbsp;( Organic, Digitas )</li>
 						<li class="lstn">Exposure to cognitive science: language, learning, decision-making, and habits</li>
@@ -219,6 +211,13 @@
 						<li class="item">UI Development in Onstar.com</li>
 						<li class="item">Java ( Liferay ), HTML5, JavaScript, XML</li>
 					</ul>
+					
+					<div class="format-bold"><span class="company">ORGANIC</span> | <span class="location">Bloomfield Hills, MI</span></div>
+					<div class="format-semi-bold"><span class="title">UI Engineer (Contract, 3-month)</span> &mdash; <span class="dates">Jul 2008 - May 2009</span></div>
+					<ul class="description ule">
+						<li class="item">UI development in Dodge.com</li>
+						<li class="item">Perl, HTML5, JavaScript, XML</li>						
+					</ul>					
 
 					<p class="reference">"Ben is one of the most talented developers I have worked with; especially skilled in front-end web technologies. He has consistently demonstrated the ability to direct teams to produce incredibly complex results inside of ridiculous time frames. Last and probably most importantly, Ben was a key player in our client interactions helping to shape clear expectations and a sense of confidence in the times that our projects were under the most stress." &mdash; TJ Stevens, Technical Project Manager</p>
 				</div>
