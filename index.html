@@ -66,12 +66,10 @@
 				list-style-type: none;
 				margin: 1em 0 .5em 0;
 				font-size: 1em;
-				font-weight: 300;
 			}
 			.format-bold {
 				margin-top: 1.5em;
 				font-size: 1em;
-				font-weight: 400;
 			}			
 			.format-semi-bold {
 				margin-left: 1.5em;
@@ -269,5 +267,32 @@
 
 	
 		</div>
+		
+		<!--
+
+		//	( JS ) JavaScript POKER - Deal 7 cards	| https://github.com/wrightben/texas-holdem
+		
+			var deal = function( cards ) {
+	
+				var i = Math.floor( Math.random() * 52 );
+				_ = new Array(52).fill(0);
+	
+				while ( cards > 0 ) {
+					while ( _[ i ] != 0 ) { 
+						i = Math.floor( Math.random() * 52 );
+					}
+					_[i] = i + 1;
+					cards --;
+				}
+
+				return _.filter(function( e ) {
+					return Boolean(e != 0);
+				});
+	
+			}
+
+			console.log( deal( 7 ) );		
+		
+		-->
 	</body>
 </html>
