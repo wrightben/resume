@@ -10,6 +10,7 @@
 			
 		-->
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8" />
 		<meta name="google-site-verification" content="EK2pxxhfVLpuB3iSwzC29hiCrkR65Nw3P4dXLMT4Q4U">
 		<title>Benjamin Wright - Resume</title>
 		
@@ -24,15 +25,18 @@
 				margin: 0px;
 				padding: 0px;
 			}
+			#download {
+				display: none;
+			}
 			.printonly {
 				display: none;
 			}
 			#content {
 				margin: 0 auto;
-				width: 720px;
+				width: 752px;
 			}
 			#resume {
-				margin: 2em 0;
+				margin: 2em;
 				position: relative;
 			}
 			h1, h2, h3 {
@@ -53,7 +57,7 @@
 			}			
 			p {
 				margin: 1em 0;
-				font-size: .8em;
+				font-size: 13px;
 				line-height: 1.5em;
 			}
 			div.b {
@@ -81,21 +85,19 @@
 				font-size: 1em;
 			}			
 			.format-semi-bold {
-				margin-left: 1.5em;
 				font-size: .9em;
 				color: #050505;
 			}	
 			.format-semi-bold span, .format-bold span {
 				font: inherit;
 			}	
-			.company {
-				margin-left: .5em;
-				font-weight: 400!important;
+			span.company {
+				font-weight: 400;
 			}
 			.title {
-			
+				
 			}
-			.location {
+			span.location {
 				margin-left: 1em;
 			}
 			.dates {
@@ -103,7 +105,7 @@
 			}
 			.item {
 				display: inline-block;
-				margin-left: 1.8em;
+				margin-right: 1.5em;
 			}	
 			.item:before {
 				content: " — ";
@@ -116,7 +118,7 @@
 				font-size: .8em;
 			}
 			.source {
-				margin-left: 1.5em;
+				margin-left: 1.2em;
 				border-right: 1px solid #050505;
 			}
 			.reference {
@@ -152,11 +154,11 @@
 			}
 			.float-left {
 				float: left;
-				width: 28%;
+				width: 27%;
 			}
 			.float-right {
 				float: right;
-				width: 71.4%;
+				width: 72.4%;
 			}
 			
 			
@@ -168,9 +170,27 @@
 					display: initial;
 				}
 				.page-break {
-					display: block;
-					margin-top: 2em;
+					page-break-before: always;
+					margin-top: 25px;
 				}
+			}
+			
+			
+			@media screen and (max-width: 1024px) {
+				  #resume {
+				  	display: none;
+				  }
+				  #download {
+				  	margin: 2em;
+				  	display: block;
+				  }
+				  #download .summary p {
+				  	font-size: 18px;
+				  }
+				  #download a {
+				  	color: steelblue;
+				  	text-decoration: none;
+				  }
 			}
 		</style>
 	</head>
@@ -190,7 +210,7 @@
 
 
 				<h1>Benjamin Wright</h1>
-				<h2>Manager, Web Development</h2>
+				<h2>Manager, Web Development&nbsp;&nbsp;( 15+ Years )</h2>
 				<!-- Ann Arbor, MI -->
 				
 				<div id="contact">
@@ -209,14 +229,14 @@
 					<h3>Professional Overview</h3>
 					<ul>
 						<li class="lth">Web Development ( UI/UX, Full-stack )</li>
-						<li class="lstn">Extensive experience with Web Applications, HTML5 and W3C standards</li>		
-						<li class="lstn">Certification training in JavaScript and Java; C/C++, perl, PHP experience</li>
-						<li class="lstn">HTML5/XML, CSS, SQL, Git, Bash Scripting</li>					
+						<li class="lstn">Extensive experience with Web Applications, UI/UX design for the web</li>		
+						<li class="lstn">Certification training in JavaScript and Java; Experience in C/C++, perl, PHP</li>
+						<li class="lstn">Extensive experience with HTML5 and W3C standards, CSS, SQL, Git, Bash Scripting</li>					
 					
-						<li class="lth">Marketing/Advertising</li>
-						<li class="lstn">Experience in marketing/advertising agencies&nbsp;&nbsp;( Organic, Digitas )</li>
-						<li class="lstn">Exposure to cognitive science: language, learning, decision-making, and habits</li>
-						<li class="lstn">Exposure to methods of research and statistical analysis</li>
+						<li class="lth">Marketing/Advertising ( Organic, Digitas )</li>
+						<li class="lstn">Experience with DATA: analytics, metrics, APIs, and KPIs</li>
+						<li class="lstn">Exposure to consumer behavior, cognitive science, and methods of research and statistical analysis</li>
+					
 
 						<li class="lth">Soft Skills</li>
 						<li class="lstn">Group leadership, Project liaison</li>
@@ -234,7 +254,7 @@
 				<div class="b">
 					<h3>Work Experience</h3>
 
-					<div class="format-bold">1 <span class="company">VERISIGN</span><span class="location">Reston, VA</span></div>
+					<div class="format-bold"><span class="company">VERISIGN</span><span class="location">Reston, VA</span></div>
 					<div class="format-semi-bold"><span class="title">Software Engineer III</span><span class="dates">Mar 2013 - Sep 2014</span></div>
 					<ul class="description ule">
 						<li class="item">UI/UX in mdns.verisign.com</li>
@@ -245,8 +265,9 @@
 						<div class="float-right"><p class="reference">He has great technical skills. He is passionate about creating great user interfaces. He is also passionate about teams and good teamwork. Ben has improved the user interface of the MDNS product as a result of his involvement. He has also contributed to the overall improvement of our development process. He has helped identify pain points in our planning and requirements gathering and documentation. As a result, the team has seen some improvement in clarification of UI requirements. Ben has great skills, some of which I don't feel we have been able to fully take advantage of. I hope that can change in the future. We are lucky to have Ben as part of the development team.</p></div>
 					</div>
 
-					<h4 class="page-break printonly">__</h4>
-					<div class="format-bold">2 <span class="company">BARBARIAN</span><span class="location">Seattle, WA</span></div>
+					<h4 class="page-break">__</h4>
+					
+					<div class="format-bold"><span class="company">BARBARIAN</span><span class="location">Seattle, WA</span></div>
 					<div class="format-semi-bold"><span class="title">UI Developer ( Freelance )</span><span class="dates">Sep 2012</span></div>
 					<ul class="description ule">
 						<li class="item">UI/UX in GE.com</li>
@@ -254,14 +275,14 @@
 					</ul>
 
 
-					<div class="format-bold">3 <span class="company">DIGITAS</span><span class="location">Detroit, MI</span></div>
+					<div class="format-bold"><span class="company">DIGITAS</span><span class="location">Detroit, MI</span></div>
 					<div class="format-semi-bold"><span class="title">Principal Software Engineer</span><span class="dates">Mar 2011 - Jun 2011</span></div>
 					<ul class="description ule">
 						<li class="item">Liaison to COMPUWARE for Onstar.com</li>
 					</ul>
 
 
-					<div class="format-bold">4 <span class="company">COMPUWARE</span><span class="location">Detroit, MI</span></div>
+					<div class="format-bold"><span class="company">COMPUWARE</span><span class="location">Detroit, MI</span></div>
 					<div class="format-semi-bold"><span class="title">UI Team Lead</span><span class="dates">Jun 2009 - Mar 2011</span></div>
 					<ul class="description ule">
 						<li class="item">Liaison to DIGITAS for Onstar.com</li>
@@ -273,7 +294,7 @@
 						<div class="float-right"><p class="reference">Ben is one of the most talented developers I have worked with; especially skilled in front-end web technologies. He has consistently demonstrated the ability to direct teams to produce incredibly complex results inside of ridiculous time frames. Last and probably most importantly, Ben was a key player in our client interactions helping to shape clear expectations and a sense of confidence in the times that our projects were under the most stress.</p></div>
 					</div>
 
-					<div class="format-bold">5 <span class="company">ORGANIC</span><span class="location">Bloomfield Hills, MI</span></div>
+					<div class="format-bold"><span class="company">ORGANIC</span><span class="location">Bloomfield Hills, MI</span></div>
 					<div class="format-semi-bold"><span class="title">UI Engineer (Contract, 3-month)</span><span class="dates">Jul 2008 - May 2009</span></div>
 					<ul class="description ule">
 						<li class="item">UI/UX in Dodge.com</li>
@@ -292,6 +313,16 @@
 					<p><a href="http://wrightben.com/books/" target="_blank" class="nu">_ Digital Bookshelf</a></p>
 				</div>
 				
+			</div>
+			
+			<div id="download">
+				<h1>Benjamin Wright</h1>
+				<h2>Manager, Web Development&nbsp;&nbsp;( 15+ Years )</h2>
+				
+				<div class="b summary">
+					<p>Download <a href="./Benjamin%20Wright%20-%20Resume.pdf" >Benjamin Wright - Resume.pdf</a>
+					<br />or rotate your device to view my HTML resume.</p>
+				</div>
 			</div>
 
 	
