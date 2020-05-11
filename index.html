@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!--
+		<!-- 
+			DESIGN: This design is loosely based on:
+			https://developer.mozilla.org/en-US/docs/Web/CSS
 			
-			DESIGN: This resume is based on store.hbr.org
-			https://store.hbr.org/product/tuning-into-the-voice-of-your-customer/U0510C
-			
-			index.html is available in Github. Fork it, improve it, share it with me!
-			
-		-->
+			CSS / Safari Webkit Issue ?
+			Elements with display: inline-block are font-scaled to x-small.
+			https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
+		-->	
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
 		<meta name="google-site-verification" content="EK2pxxhfVLpuB3iSwzC29hiCrkR65Nw3P4dXLMT4Q4U">
 		<title>Resume - Benjamin Wright </title>
 		
@@ -26,6 +27,9 @@
 			}
 			#download {
 				display: none;
+			}
+			#download .b {
+				margin: 2em !important;
 			}
 			.printonly {
 				display: none;
@@ -102,16 +106,16 @@
 			.dates {
 				margin-left: 1em;	
 			}
+			.ule {
+				margin: 1em 0 0.5em 0;
+			}
 			.item {
 				display: inline-block;
 				margin-right: 1.5em;
 			}	
 			.item:before {
 				content: " — ";
-			}
-			.ule {
-				margin: 1em 0 0.5em 0;
-			}
+			}			
 			.source, .reference {
 				margin: 1.5em 0 1.5em 0;			
 				font-size: .8em;
@@ -123,10 +127,6 @@
 			.reference {
 				border:1px solid transparent;			
 				padding: 0 0 0 2em;
-			}
-									
-			hr {
-				margin-bottom: 1em;
 			}
 			#contact {
 				position: absolute;
@@ -144,6 +144,9 @@
 				height: 25px;
 				width: 25px;
 			}
+			.screen-social {
+				margin-top: 0.4em;
+			}
 			
 			.float-container {
 				overflow: auto;
@@ -160,7 +163,6 @@
 				width: 72.4%;
 			}
 			
-			
 			@media print {    
 				.noprint {
 					display: none !important;
@@ -171,6 +173,81 @@
 				.page-break {
 					page-break-before: always;
 					margin-top: 25px;
+				}
+			}
+
+			/* DESIGN: Mobile-Landscape: Stretch browser to huge width, set #resume to max-width pixels */
+			@media screen and (min-aspect-ratio: 17/10) {
+				#content {
+					width: auto;
+				}
+				#resume {
+					/* max-width: 636px; */
+				}
+				#contact {
+					position: static;
+					text-align: left;
+				}
+				#contact p.screen-social {		
+					margin-top: 1em;
+				}
+				li.lth, li.lstn {
+					font-size: inherit;
+				}
+				li.lth {
+					font-weight: 400;
+					margin:  2em 0;
+				}
+				li.lstn {
+					display: block;
+					margin: 1em 0;
+					font-size: small;
+				}
+				li.lstn:before {
+					content: "• ";
+				}
+				#resume .ule .item {
+					font-size: 1rem !important; /* inline-block font-scaling issue */
+				}
+				.float-left, .float-right {
+					border: 1px solid transparent;
+					float: none;
+					width: auto;
+				}
+				.source, .reference {
+					margin: 0;
+					padding: 0;
+					border: none;
+				}
+				p.source {
+					margin: 2em 0 0 0;
+					min-width: 200px;
+					border-bottom: 1px dotted #050505;
+					padding-bottom: 1em;
+					font-weight: 400;
+				}
+				p.source:after {
+					content: ": ";
+				}
+				p.reference {
+					margin-bottom: 2em;
+				}
+				
+				h4 {
+					display: none;
+				}
+				
+			}
+			
+			@media screen and ( orientation: portrait ) {
+				#resume {
+					display: none;
+				}
+				#download {
+					display: initial;
+				}
+				#download p {
+					font-size: 1rem;
 				}
 			}
 
@@ -200,7 +277,7 @@
 					<p><a href="mailto:mail@wrightben.com" class="hl nu">mail@wrightben.com</a></p>
 					
 					<!-- Screen -->					
-					<p style="margin-top: 0.4em;">
+					<p class="screen-social">
 						<a href="https://github.com/wrightben" target="_blank" title="https://github.com/wrightben"><img class="social" src="./resources/github.svg" alt="https://github.com/wrightben" /></a>
 						<a href="https://www.instagram.com/wrightben13/" target="_blank" title="https://www.instagram.com/wrightben13/" class="noprint"><img class="social" src="./resources/instagram.svg" alt="https://www.instagram.com/wrightben13/" /></a>
 					</p>
@@ -295,6 +372,15 @@
 					<p><a href="http://wrightben.com/books/" target="_blank" class="nu">_ Digital Bookshelf</a></p>
 				</div>
 				
+			</div>
+			
+			<div id="download">
+				<div class="b">
+					<h1>Benjamin Wright</h1>
+					<h2>Manager, Web Development&nbsp;&nbsp;( 15+ Years )</h2>
+					
+					<p>Download <a href="./Resume%20-%20Benjamin%20Wright.pdf" target="_blank" class="nu">Resume - Benjamin Wright.pdf</a>.<br />Use landscape to see my HTML resume.</p>
+				</div>
 			</div>
 			
 		</div>
