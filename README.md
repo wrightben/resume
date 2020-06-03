@@ -1,1 +1,1 @@
-Resume: [http://wrightben.com](http://wrightben.com)
+Resume: [http://wrightben.com/cv](http://wrightben.com/cv)
