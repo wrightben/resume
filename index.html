@@ -2,14 +2,8 @@
 <html lang="en">
 	<head>
 		<!-- 
-			DESIGN: This design is loosely based on:
-			https://developer.mozilla.org/en-US/docs/Web/CSS
-			
-			CSS / Safari Webkit Issue ?
-			Elements with display: inline-block are font-scaled to x-small.
-			https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust 
-			
-			Can Firefox/Chrome fix this?
+			DESIGN: This design is loosely based on the book:
+			Intersection: How Enterprise Design Bridges the Gap Between Business, Technology, and People
 		-->	
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />		
@@ -169,6 +163,14 @@
 				width: 72.4%;
 			}
 			
+			/*
+				CSS / Safari Webkit Issue ?
+				Elements with display: inline-block are font-scaled to x-small.
+				https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust 
+		
+				Can Firefox/Chrome fix this?			
+			*/
+			
 			@media print {    
 				.noprint {
 					display: none !important;
@@ -182,7 +184,9 @@
 				}
 			}
 
-			/* DESIGN: Mobile-Landscape: Stretch browser to huge width, set #resume to max-width pixels */
+			/* 
+				DESIGN: Mobile-Landscape: Stretch browser to huge width, set #resume to max-width pixels 
+			*/
 			@media screen and (min-aspect-ratio: 17/10) {
 				#content {
 					width: auto;
