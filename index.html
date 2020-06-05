@@ -208,7 +208,6 @@
 					font-size: inherit;
 				}
 				li.lth {
-					font-weight: 400;
 					margin:  2em 0 1em 0;
 				}
 				li.lstn {
@@ -216,18 +215,19 @@
 					margin: .5em 0;
 					font-size: small;
 				}
-				li.lstn:before {
-					content: "• ";
-				}
 				.format-bold {
 					margin-top: 2em;
+				}
+				span.location {
+					color: rgb(65, 69, 71);
 				}
 				.ule {
 					margin: .5em 0 0.25em 0;
 					counter-reset: section;
 				}				
+				/* font-scaling issue: .item, .source, .reference = 14.4 px; .source,.reference are browser-scaled x 1.1 (.9 / 1.1 = .82) */
 				#resume .ule .item {
-					font-size: .8rem !important; /* inline-block font-scaling issue */
+					font-size: .9rem !important;
 				}
 				.float-left, .float-right {
 					border: 1px solid transparent;
@@ -235,6 +235,7 @@
 					width: auto;
 				}
 				.source, .reference {
+					font-size: .82rem !important;
 					margin: 0;
 					padding: 0;
 					border: none;
@@ -243,7 +244,6 @@
 					margin: 1em 0 0 0;
 					min-width: 200px;
 					padding-bottom: 1em;
-					font-weight: 400;
 				}
 				p.source:after {
 					content: ": ";
@@ -365,17 +365,17 @@
 					<ul class="description ule">
 						<li class="item">Liaison to DIGITAS for Onstar.com</li>
 						<li class="item">UI/UX in Onstar.com</li>
-						<li class="item">Java ( Liferay ), HTML5, JS, XML</li>
+						<li class="item" id="java">Java ( Liferay ), HTML5, JS, XML</li>
 					</ul>
 					<div class="float-container">
-						<div class="float-left"><p class="source">TJ Stevens<br />Technical Project Manager</p></div>
+						<div class="float-left"><p class="source" id="stevens">TJ Stevens<br />Technical Project Manager</p></div>
 						<div class="float-right"><p class="reference">Ben is one of the most talented developers I have worked with; especially skilled in front-end web technologies. He has consistently demonstrated the ability to direct teams to produce incredibly complex results inside of ridiculous time frames. Last and probably most importantly, Ben was a key player in our client interactions helping to shape clear expectations and a sense of confidence in the times that our projects were under the most stress.</p></div>
 					</div>
 
 					<div class="format-bold"><span class="company">Organic</span><span class="location">Bloomfield Hills, MI</span></div>
 					<div class="format-semi-bold"><span class="title">UI Engineer ( Contract, 3-month )</span><span class="dates">Jul 2008 - May 2009</span></div>
 					<ul class="description ule">
-						<li class="item">UI/UX in Dodge.com</li>
+						<li class="item">UI/UX in Dodge.com ( pixel perfect )</li>
 						<li class="item">Perl, HTML5, JS, XML</li>
 					</ul>					
 
@@ -438,6 +438,16 @@
 
 			console.log( deal( 7 ) );		
 		
+		-->
+		
+		<!--
+		//	Chrome: font-scaling issue
+	
+			setTimeout(function() {
+				var x = window.getComputedStyle(document.getElementById("java"), null).getPropertyValue('font-size');
+				var y = window.getComputedStyle(document.getElementById("stevens"), null).getPropertyValue('font-size');
+				alert("x: "+x+" ... y:"+ y);
+			},500);
 		-->
 	</body>
 </html>
