@@ -174,9 +174,7 @@
 			/*
 				CSS / Safari Webkit Issue ?
 				Elements with display: inline-block are font-scaled to x-small.
-				https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust 
-		
-				Can Firefox/Chrome fix this?			
+				https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust 	
 			*/
 			
 			@media print {    
@@ -320,11 +318,10 @@
 						<li class="lth">Marketing/Advertising</li>
 						<li class="lstn">Experience with Data &mdash; Analytics, Metrics, APIs, and KPIs</li>
 						<li class="lstn">Exposure to consumer behavior, cognitive science, and methods of research and statistical analysis</li>
-					
 
 						<li class="lth">Soft Skills</li>
 						<li class="lstn">Group leadership, Project liaison</li>
-						<li class="lstn">Communication for team building and innovation&nbsp;&nbsp;( see Work Experience for references )</li>
+						<li class="lstn">Communication for meaning-making, team building, and innovation</li>
 						<li class="lstn">Solution-finding / Creative thinking</li>
  
 						<li class="lth">Education</li>
@@ -337,6 +334,14 @@
 
 				<div class="b">
 					<h3>Work Experience</h3>
+					
+					<div class="format-bold"><span class="company">Benjamin Wright</span><span class="location">Battle Creek, MI</span></div>
+					<div class="format-semi-bold"><span class="title">Regular Person</span><span class="dates">Jan 2016 - Dec 2020</span></div>
+					<ul class="description ule">
+						<li class="item">Studied several absurdly arcane subjects in "thinking"</li>
+						<li class="item">Took various classes at the local university</li>
+						<li class="item">Took guitar and singing lessons</li>
+					</ul>					
 
 					<div class="format-bold"><span class="company">Verisign</span><span class="location">Reston, VA</span></div>
 					<div class="format-semi-bold"><span class="title">Software Engineer III</span><span class="dates">Mar 2013 - Sep 2014</span></div>
@@ -344,10 +349,6 @@
 						<li class="item">UI/UX in mdns.verisign.com</li>
 						<li class="item">Java ( JavaServer Faces ), HTML5, JS</li>
 					</ul>
-					<div class="float-container">
-						<div class="float-left"><p class="source">Brian James<br />Engineering Manager</p></div>
-						<div class="float-right"><p class="reference">He has great technical skills. He is passionate about creating great user interfaces. He is also passionate about teams and good teamwork. Ben has improved the user interface of the MDNS product as a result of his involvement. He has also contributed to the overall improvement of our development process. He has helped identify pain points in our planning and requirements gathering and documentation. As a result, the team has seen some improvement in clarification of UI requirements. Ben has great skills, some of which I don't feel we have been able to fully take advantage of. I hope that can change in the future. We are lucky to have Ben as part of the development team.</p></div>
-					</div>
 					
 					<h4 class="page-break print-only">__ Work Experience Continued</h4>
 										
@@ -373,10 +374,6 @@
 						<li class="item">UI/UX in Onstar.com</li>
 						<li class="item" id="java">Java ( Liferay ), HTML5, JS, XML</li>
 					</ul>
-					<div class="float-container">
-						<div class="float-left"><p class="source" id="stevens">TJ Stevens<br />Technical Project Manager</p></div>
-						<div class="float-right"><p class="reference">Ben is one of the most talented developers I have worked with; especially skilled in front-end web technologies. He has consistently demonstrated the ability to direct teams to produce incredibly complex results inside of ridiculous time frames. Last and probably most importantly, Ben was a key player in our client interactions helping to shape clear expectations and a sense of confidence in the times that our projects were under the most stress.</p></div>
-					</div>
 
 					<div class="format-bold"><span class="company">Organic</span><span class="location">Bloomfield Hills, MI</span></div>
 					<div class="format-semi-bold"><span class="title">UI Engineer ( Contract, 3-month )</span><span class="dates">Jul 2008 - May 2009</span></div>
@@ -390,7 +387,7 @@
 				<div class="b summary">
 					<h3>Personal Summary</h3>
 					
-					<p>I'm a fan of better-than-ordinary sweatshirts. Barnes and Noble was once one of my favorite places. I'm an advocate of the 100-hour rule: pick a new skill, commit yourself 1%, and end up better than you were.</p>
+					<p>I'm a fan of better-than-ordinary sweatshirts. Barnes and Noble was once one of my favorite places. I might recommend the 100-hour rule: 1% of the Gladwell rule&mdash;for regular people.</p>
 					
 					<ul class="description ule">
 						<li class="company">Volunteering: </li>
@@ -398,7 +395,7 @@
 						<li class="item">Linear Park ( trail clearing )</li>
 					</ul>
 					
-					<p>Interesting personal experiences: Drove a race car. Bench pressed 275lbs. Biked a century. Sailed the Chesapeake. Ran a 3:18 marathon. Flew a small plane. Traveled by Amtrak from DET to SEA. Hiked a mini mountain. Nearly qualified for Mensa (97th). Lived in Detroit, Chicago, Sarasota, Seattle, and DC.</p>		
+					<p>Interesting personal experiences: Drove a race car. Bench pressed 275lbs. Biked a century. Sailed the Chesapeake. Ran a 3:18 marathon. Flew a small plane. Rode an Amtrak from DET to SEA. Hiked a mini mountain. Nearly qualified for Mensa (97th). Lived in Detroit, Chicago, Sarasota, Seattle, and DC.</p>		
 				</div>
 				
 			</div>
@@ -412,42 +409,5 @@
 			</div>
 			
 		</div>
-		
-		<!--
-
-		//	( JS ) JavaScript POKER - Deal 7 cards	| https://github.com/wrightben/texas-holdem
-		
-			var deal = function( cards ) {
-	
-				var i = Math.floor( Math.random() * 52 );
-				_ = new Array(52).fill(0);
-	
-				while ( cards > 0 ) {
-					while ( _[ i ] != 0 ) { 
-						i = Math.floor( Math.random() * 52 );
-					}
-					_[i] = i + 1;
-					cards -= 1;
-				}
-
-				return _.filter(function( e ) {
-					return Boolean(e != 0);
-				});
-	
-			}
-
-			console.log( deal( 7 ) );		
-		
-		-->
-		
-		<!--
-		//	Chrome: font-scaling issue
-	
-			setTimeout(function() {
-				var x = window.getComputedStyle(document.getElementById("java"), null).getPropertyValue('font-size');
-				var y = window.getComputedStyle(document.getElementById("stevens"), null).getPropertyValue('font-size');
-				alert("x: "+x+" ... y:"+ y);
-			},500);
-		-->
 	</body>
 </html>
