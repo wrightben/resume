@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- 
+			DESIGN: This design is loosely based on the book:
+			Intersection: How Enterprise Design Bridges the Gap Between Business, Technology, and People
+		-->	
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />		
+		<meta name="google-site-verification" content="EK2pxxhfVLpuB3iSwzC29hiCrkR65Nw3P4dXLMT4Q4U" />
+		<meta name="description" content="Professional Summary: Manager, Web Development, Marketing and Advertising" />
+		<link rel="canonical" href="http://wrightben.com/" />		
+		
+		<title>References - Benjamin Wright </title>
+		
+		<style>
+			* {
+				font-family: "Helvetica", sans-serif;
+				font-size: 1em;
+				font-weight: 300;
+				line-height: 1.4em;
+				color: #050505;
+				
+				margin: 0px;
+				padding: 0px;
+			}
+			#download {
+				display: none;
+			}
+			#download .b {
+				margin: 2em !important;
+			}
+			.print-only {
+				display: none;
+			}
+			#content {
+				margin: 0 auto;
+				width: 752px;
+			}
+			#resume {
+				margin: 2em;
+				position: relative;
+			}
+			h1, h2, h3 {
+				color: #050505;
+			}
+			h1, h3 {
+				text-transform: uppercase;		
+			}
+			h1 {
+				font-size: 2em;
+				margin-bottom: -0.1em;
+			}
+			h2, h3 {
+				margin-bottom: 1em;			
+			}
+			h3 {
+				font-size: 1.3em;
+			}	
+			h4 {
+				color: #BBB;
+			}		
+			p {
+				margin: 1em 0;
+				font-size: 13px;
+				line-height: 1.5em;
+			}
+			div.b {
+				clear: both;
+				margin-top: 2.5em;
+				padding-top: .5em;
+			}			
+			ul {
+				list-style-position: inside;
+			}
+			li {
+				font-size: .8em;
+				list-style-type: none;
+			}
+			.lstn {
+				margin: 0 0 .2em 3em;
+			}
+			.lth {
+				list-style-type: none;
+				margin: 1em 0 .5em 0;
+				font-size: 1em;
+			}
+			.format-bold {
+				margin-top: 1.5em;
+				font-size: 1em;
+			}			
+			.format-semi-bold {
+				font-size: .9em;
+				color: #050505;
+			}	
+			.format-semi-bold span, .format-bold span {
+				font: inherit;
+			}	
+			span.company {
+				color: rgb(26, 115, 232);
+			}
+			span.location {
+				margin-left: 1em;
+			}
+			span.dates {
+				margin-left: 1em;	
+			}
+			.ule {
+				margin: 1em 0 0.5em 0;
+				counter-reset: section;
+			}
+			.ule lh {
+				color: rgb(26, 115, 232);
+				margin-right: 1.5em; 
+			}
+			.item {
+				display: inline-block;
+				margin-right: 1.5em;
+			}	
+			.item:before {
+			
+			}			
+			.source, .reference {
+				margin: 1.5em 0 1.5em 0;			
+				font-size: .8em;
+			}
+			.source {
+				margin-left: 1.2em;
+			}
+			.reference {
+				border:1px solid transparent;			
+				padding: 0 0 0 2em;
+			}
+			#contact {
+				position: absolute;
+				top: 0px; 
+				right: 0px;
+				text-align: right;
+			}
+			#contact p {
+				margin: 0;
+			}
+			#contact p.screen-social {
+				margin-top: .7em;
+			}
+			.nu {
+				text-decoration: none;
+			}
+			.social {
+				height: 25px;
+				width: 25px;
+			}
+			.screen-social {
+				margin-top: 0.4em;
+			}
+			
+			.float-container {
+				overflow: auto;
+			}
+			.float-left, .float-right {
+				border: 1px solid transparent;
+			}
+			.float-left {
+				float: left;
+				width: 27%;
+			}
+			.float-right {
+				float: right;
+				width: 72.4%;
+			}
+			
+			/*
+				CSS / Safari Webkit Issue ?
+				Elements with display: inline-block are font-scaled to x-small.
+				https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust 
+		
+				Can Firefox/Chrome fix this?			
+			*/
+			
+			@media print {    
+				.noprint {
+					display: none !important;
+				}
+				.print-only {
+					display: block;
+				}
+				.page-break {
+					page-break-before: always;
+				}
+			}
+
+			/* 
+				DESIGN: Mobile-Landscape: Stretch browser to huge width, set #resume to max-width pixels 
+			*/
+			@media screen and (min-aspect-ratio: 17/10) {
+				#content {
+					width: auto;
+				}
+				#resume {
+					/* max-width: 636px; */
+				}
+				#contact {
+					position: static;
+					text-align: left;
+				}
+				#contact p.screen-social {		
+					margin-top: 1em;
+				}
+				li.lth, li.lstn {
+					font-size: inherit;
+				}
+				li.lth {
+					margin:  2em 0 1em 0;
+				}
+				li.lstn {
+					display: block;
+					margin: .5em 0;
+					font-size: small;
+				}
+				.format-bold {
+					margin-top: 2em;
+				}
+				span.location {
+					color: rgb(65, 69, 71);
+				}
+				.ule {
+					margin: .5em 0 0.25em 0;
+					counter-reset: section;
+				}				
+				/* font-scaling issue: .item, .source, .reference = 14.4 px; .source,.reference are browser-scaled x 1.1 (.9 / 1.1 = .82) */
+				#resume .ule .item {
+					font-size: .9rem !important;
+				}
+				.float-left, .float-right {
+					border: 1px solid transparent;
+					float: none;
+					width: auto;
+				}
+				.source, .reference {
+					font-size: .82rem !important;
+					margin: 0;
+					padding: 0;
+					border: none;
+				}
+				p.source {
+					margin: 1em 0 0 0;
+					min-width: 200px;
+					padding-bottom: 1em;
+				}
+				p.source:after {
+					content: ": ";
+				}
+				p.reference {
+					margin-bottom: 0em;
+				}
+				
+				h4 {
+					display: none;
+				}
+				
+			}
+			
+			@media screen and ( orientation: portrait ) {
+				#resume {
+					display: none;
+				}
+				#download {
+					display: initial;
+				}
+				#download p {
+					font-size: 1rem;
+				}
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<div id="content">
+		
+			<div id="resume">
+
+
+				<h1>Benjamin Wright</h1>
+				<h2>&nbsp;</h2>
+				
+				<div id="contact">
+					<p><a href="tel:248-224-5833" class="hl nu">(248) 224-5833</a></p>
+					<p><a href="mailto:mail@wrightben.com" class="hl nu">mail@wrightben.com</a></p>
+				</div>
+
+
+				<div class="b">
+					<h3>References</h3>
+
+					<div class="format-bold"><span class="company">Verisign</span><span class="location">Reston, VA</span></div>
+					<div class="float-container">
+						<div class="float-left"><p class="source">Brian James<br />Engineering Manager</p></div>
+						<div class="float-right"><p class="reference">He has great technical skills. He is passionate about creating great user interfaces. He is also passionate about teams and good teamwork. Ben has improved the user interface of the MDNS product as a result of his involvement. He has also contributed to the overall improvement of our development process. He has helped identify pain points in our planning and requirements gathering and documentation. As a result, the team has seen some improvement in clarification of UI requirements. Ben has great skills, some of which I don't feel we have been able to fully take advantage of. I hope that can change in the future. We are lucky to have Ben as part of the development team.</p></div>
+					</div>
+
+					<div class="format-bold"><span class="company">Compuware</span><span class="location">Detroit, MI</span></div>
+					<div class="float-container">
+						<div class="float-left"><p class="source" id="stevens">TJ Stevens<br />Technical Project Manager</p></div>
+						<div class="float-right"><p class="reference">Ben is one of the most talented developers I have worked with; especially skilled in front-end web technologies. He has consistently demonstrated the ability to direct teams to produce incredibly complex results inside of ridiculous time frames. Last and probably most importantly, Ben was a key player in our client interactions helping to shape clear expectations and a sense of confidence in the times that our projects were under the most stress.</p></div>
+					</div>			
+
+				</div>
+				
+			</div>
+			
+		</div>
+	</body>
+</html>
