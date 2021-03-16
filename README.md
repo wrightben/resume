@@ -2,7 +2,7 @@
 [http://wrightben.com/cv](http://wrightben.com/cv)
 
 
-__Excluded__
+Pre-Resume Experience
 
 #### 2007
 * Authorize.net for HealthMedia.com
