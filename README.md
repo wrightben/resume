@@ -1,28 +1,8 @@
 ## Resume
 [http://wrightben.com/cv](http://wrightben.com/cv)
 
-#### 2017
-* SQLite/PHP/Context Menus
 
-#### 2016
-* **C++** Class (KCC College)
-
-#### 2012
-* BookmarkChess
-* WebGL/JavaScript
-* Craigslist scripting
-
-#### 2011
-* **JavaScript Certification class**
-
-#### 2010
-* {Text} Regex
-
-#### 2009
-* Liferay
-
-#### 2008
-* **Java Certification class**
+__Excluded__
 
 #### 2007
 * Authorize.net for HealthMedia.com
