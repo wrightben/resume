@@ -1,6 +1,7 @@
 ## Resume
 [http://wrightben.com/cv](http://wrightben.com/cv)
 
+<br /><br /><br />
 ## Pre-Resume Experience
 
 #### 2007
