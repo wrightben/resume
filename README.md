@@ -1,9 +1,7 @@
 ## Resume
 [http://wrightben.com/cv](http://wrightben.com/cv)
 
---- 
-
-### Pre-Resume Experience
+## Other Experience
 
 #### 2007
 * Authorize.net for HealthMedia.com
