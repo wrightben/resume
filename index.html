@@ -199,89 +199,6 @@
 					page-break-before: always;
 				}
 			}
-
-			/* 
-				DESIGN: Mobile-Landscape: Stretch browser to huge width, set #resume to max-width pixels 
-			*/
-			@media screen and (min-aspect-ratio: 17/10) {
-				#content {
-					width: auto;
-				}
-				#resume {
-					/* max-width: 636px; */
-				}
-				#contact {
-					position: static;
-					text-align: left;
-				}
-				#contact p.screen-social {		
-					margin-top: 1em;
-				}
-				li.lth, li.lstn {
-					font-size: inherit;
-				}
-				li.lth {
-					margin:  2em 0 1em 0;
-				}
-				li.lstn {
-					display: block;
-					margin: .5em 0;
-					font-size: small;
-				}
-				.format-bold {
-					margin-top: 2em;
-				}
-				span.location {
-					color: rgb(65, 69, 71);
-				}
-				.ule {
-					margin: .5em 0 0.25em 0;
-					counter-reset: section;
-				}				
-				/* font-scaling issue: .item, .source, .reference = 14.4 px; .source,.reference are browser-scaled x 1.1 (.9 / 1.1 = .82) */
-				#resume .ule .item {
-					font-size: .9rem !important;
-				}
-				.float-left, .float-right {
-					border: 1px solid transparent;
-					float: none;
-					width: auto;
-				}
-				.source, .reference {
-					font-size: .82rem !important;
-					margin: 0;
-					padding: 0;
-					border: none;
-				}
-				p.source {
-					margin: 1em 0 0 0;
-					min-width: 200px;
-					padding-bottom: 1em;
-				}
-				p.source:after {
-					content: ": ";
-				}
-				p.reference {
-					margin-bottom: 0em;
-				}
-				
-				h4 {
-					display: none;
-				}
-			}
-/*			
-			@media screen and ( orientation: portrait ) {
-				#resume {
-					display: none;
-				}
-				#download {
-					display: initial;
-				}
-				#download p {
-					font-size: 1rem;
-				}				
-			}
-*/
 		</style>
 	</head>
 	
@@ -312,7 +229,7 @@
 						<a href="https://github.com/wrightben" target="_blank" title="https://github.com/wrightben"><img class="social" src="./resources/github.svg" alt="https://github.com/wrightben" /></a>
 						<a href="https://linkedin.com/in/wrightbenpub" target="_blank" title="https://linkedin.com/in/wrightbenpub"><img class="social" src="./resources/linkedin.svg" alt="https://linkedin.com/in/wrightbenpub" /></a>						
 						<a href="https://www.instagram.com/wrightbenpub/" target="_blank" title="https://www.instagram.com/wrightbenpub/"><img class="social" src="./resources/instagram.svg" alt="https://www.instagram.com/wrightbenpub/" /></a>
-						<a href="https://twitter.com/wrightbenpub/with_replies" target="_blank" title="Tweets with replies by wrightbenpub (@wrightbenpub) / Twitter" style="display:none !important;">Twitter</a>												
+						<a href="https://twitter.com/wrightbenpub/with_replies" target="_blank" title="Tweets with replies by wrightbenpub (@wrightbenpub) / Twitter"><img class="social" src="./resources/twitter.svg" alt="https://twitter.com/wrightbenpub/with_replies" style="margin-bottom: -2px;"/></a>												
 					</p>
 				</div>
 
