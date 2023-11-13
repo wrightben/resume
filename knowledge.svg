@@ -1,0 +1,1317 @@
+<?xml version="1.0"?>
+<svg
+	width="900"
+	height="600"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Knowledge Hotspots - Benjamin Wright</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700');
+		.normal-font {
+			font-family: Montserrat, Helvetica;
+			font-size: 12px;
+			font-weight: 400;
+			fill: rgb(82, 109, 130);			
+			stroke-width: 1;
+		}
+		.bold-font {
+			fill: #000;
+			font-weight: 400;
+		}
+		.year {
+			font-size: 9px;
+			stroke-width: 0;
+			fill: #E9E9E9;
+			fill-opacity: 0.7;
+		}
+		.current {
+			fill: #9DB2BF;
+		}
+		.header {
+			fill: rgb(82, 109, 130);
+			fill-opacity: 0.9	
+		}
+		.ellipse-o {
+			stroke: #E9E9E9;
+			stroke-width: 3;
+		}
+		.ellipse-author {
+			stroke: #E9E9E9;
+			stroke-width: 1.5;
+			fill: rgb(82, 109, 130);
+			fill-opacity: 0.07;
+		}
+	</style>
+	<!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+	<defs>
+		<symbol
+			id="svg_166"
+			viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg">
+
+			<g id="svg_165">
+				<path d="m12,0a12,12 0 1 0 12,12a12.01,12.01 0 0 0 -12,-12zm0,22a10,10 0 1 1 10,-10a10.01,10.01 0 0 1 -10,10z"/>
+				<path d="m12.02,15l-0.01,0a1,1 0 1 0 0.01,0z"/>
+				<path d="m12,11a5.01,5.01 0 0 0 -3.53,1.46a1,1 0 1 0 1.4,1.42a3.08,3.08 0 0 1 4.25,0a1,1 0 0 0 1.4,-1.42a5.01,5.01 0 0 0 -3.52,-1.46z"/>
+				<path d="m12,7a8.98,8.98 0 0 0 -6.37,2.63a1,1 0 0 0 1.41,1.42a7.02,7.02 0 0 1 9.92,0a1,1 0 1 0 1.4,-1.42a8.98,8.98 0 0 0 -6.36,-2.63z"/>
+			</g>
+		</symbol>
+	</defs>
+
+	<g
+		class="layer">
+		<title>Knowledge Hotspots</title>
+		
+		
+		<ellipse
+			cx="112.5"
+			cy="346.5"
+			fill="none"
+			rx="39"
+			ry="39"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="109.5"
+			xml:space="preserve"
+			y="346.5">JavaScript</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="109"
+			xml:space="preserve"
+			y="361">2006-2019</text>
+		
+		<ellipse
+			cx="134"
+			cy="288"
+			fill="none"
+			rx="34.5"
+			ry="34.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="134.5"
+			xml:space="preserve"
+			y="284.5">Java</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="134"
+			xml:space="preserve"
+			y="299">2007-2013</text>
+
+		<ellipse
+			cx="153"
+			cy="401"
+			fill="none"
+			rx="32.5"
+			ry="32.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="153"
+			xml:space="preserve"
+			y="402">PHP</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="152"
+			xml:space="preserve"
+			y="414">2005,2011</text>
+
+		<ellipse
+			cx="42"
+			cy="419"
+			fill="none"
+			rx="35.5"
+			ry="35.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="42.5"
+			xml:space="preserve"
+			y="416.5">Perl</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="43"
+			xml:space="preserve"
+			y="431">2000,2005-P</text>
+
+		<ellipse
+			cx="190"
+			cy="345"
+			fill="none"
+			rx="44.5"
+			ry="44.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="192.5"
+			xml:space="preserve"
+			y="343.5">HTML</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="190"
+			xml:space="preserve"
+			y="358">2004-2014</text>
+
+		<ellipse
+			cx="220.5"
+			cy="266.5"
+			fill="none"
+			rx="18"
+			ry="18"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="234"
+			xml:space="preserve"
+			y="265">Python</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="232"
+			xml:space="preserve"
+			y="278">2019-P</text>
+
+		<ellipse
+			cx="402"
+			cy="316"
+			fill="none"
+			rx="44.5"
+			ry="44.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="404.5"
+			xml:space="preserve"
+			y="314.5">Marketing</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="402"
+			xml:space="preserve"
+			y="329">2010-P</text>
+
+		<ellipse
+			cx="270"
+			cy="336"
+			fill="none"
+			rx="39.5"
+			ry="39.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="271.5"
+			xml:space="preserve"
+			y="329.5">UX</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="269"
+			xml:space="preserve"
+			y="344">2009-2014</text>
+
+		<ellipse
+			cx="477"
+			cy="278"
+			fill="none"
+			rx="44.5"
+			ry="44.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="478"
+			xml:space="preserve"
+			y="263.95">Consumer</text>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="478"
+			xml:space="preserve"
+			y="278">Behavior</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="479"
+			xml:space="preserve"
+			y="293">2014-P</text>
+
+		<ellipse
+			cx="576"
+			cy="294"
+			fill="none"
+			rx="63.5"
+			ry="63.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="572.5"
+			xml:space="preserve"
+			y="291.5">Psychology</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="571"
+			xml:space="preserve"
+			y="306">1998-P</text>
+
+		<ellipse
+			cx="420"
+			cy="367"
+			fill="none"
+			rx="14.5"
+			ry="14.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="427.5"
+			xml:space="preserve"
+			y="372.5">SEO</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="428"
+			xml:space="preserve"
+			y="387">2010</text>
+
+		<ellipse
+			cx="507"
+			cy="365"
+			fill="none"
+			rx="44.5"
+			ry="44.5"
+			class="ellipse-o"
+			transform="matrix(1 0 0 1 0 0)"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="507"
+			xml:space="preserve"
+			y="361.95">Management</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="506"
+			xml:space="preserve"
+			y="377">1998-P</text>
+
+		<ellipse
+			cx="557.5"
+			cy="417.5"
+			fill="none"
+			rx="23.5"
+			ry="23.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="569"
+			xml:space="preserve"
+			y="418.95">Finance</text>
+
+		<ellipse
+			cx="510"
+			cy="439"
+			fill="none"
+			rx="33"
+			ry="33"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="490"
+			xml:space="preserve"
+			y="434.95">Real Estate</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="490"
+			xml:space="preserve"
+			y="449">2003-2009</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="578"
+			xml:space="preserve"
+			y="431">2010-2013</text>
+
+		<ellipse
+			cx="38.5"
+			cy="297.5"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="40"
+			xml:space="preserve"
+			y="295">C, C++</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="39"
+			xml:space="preserve"
+			y="308">2006, 2017</text>
+
+		<ellipse
+			cx="522.5"
+			cy="216.5"
+			fill="none"
+			rx="38"
+			ry="38"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="523"
+			xml:space="preserve"
+			y="214">Statistics</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="524"
+			xml:space="preserve"
+			y="227">2010, 2014-P</text>
+
+		<ellipse
+			cx="619"
+			cy="200"
+			fill="none"
+			rx="44.5"
+			ry="44.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="618.5"
+			xml:space="preserve"
+			y="198.5">Expertise</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="618"
+			xml:space="preserve"
+			y="213">1988-P</text>
+
+		<ellipse
+			cx="697"
+			cy="220"
+			fill="none"
+			rx="42.5"
+			ry="42.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="698.5"
+			xml:space="preserve"
+			y="214.5">Fitness</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="698"
+			xml:space="preserve"
+			y="230">1993-P</text>
+
+		<ellipse
+			cx="465.5"
+			cy="192"
+			fill="none"
+			rx="21"
+			ry="21"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="466"
+			xml:space="preserve"
+			y="187">Calculus</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="466"
+			xml:space="preserve"
+			y="198">2017</text>
+
+		<ellipse
+			cx="739"
+			cy="180"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="739"
+			xml:space="preserve"
+			y="183">Run</text>
+
+		<ellipse
+			cx="739"
+			cy="262"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="739"
+			xml:space="preserve"
+			y="265">Bike</text>
+
+		<ellipse
+			cx="756"
+			cy="223"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="764"
+			xml:space="preserve"
+			y="226">Strength</text>
+
+		<ellipse
+			cx="657"
+			cy="272"
+			fill="none"
+			rx="41.5"
+			ry="41.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="659"
+			xml:space="preserve"
+			y="278.95">Coaching</text>
+
+		<ellipse
+			cx="33.5"
+			cy="364"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="35"
+			xml:space="preserve"
+			y="360">Bash</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="34"
+			xml:space="preserve"
+			y="374">2010</text>
+
+		<ellipse
+			cx="415.5"
+			cy="255.5"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="405.5"
+			xml:space="preserve"
+			y="249.5">Sociology</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="415"
+			xml:space="preserve"
+			y="264">2017</text>
+
+		<ellipse
+			cx="551.05"
+			cy="450"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="577.55"
+			xml:space="preserve"
+			y="455.45">Accounting</text>
+
+		<ellipse
+			cx="292.49"
+			cy="264.5"
+			fill="none"
+			rx="28"
+			ry="28"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="293.49"
+			xml:space="preserve"
+			y="263.5">SQL</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="293.99"
+			xml:space="preserve"
+			y="278">2006-2016</text>
+
+		<ellipse
+			cx="608.5"
+			cy="251"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="618.5"
+			xml:space="preserve"
+			y="256">Learning</text>
+
+		<ellipse
+			cx="579.5"
+			cy="146"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="584.5"
+			xml:space="preserve"
+			y="143">Aviation</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="580"
+			xml:space="preserve"
+			y="155">2003-2018</text>
+
+		<ellipse
+			cx="652"
+			cy="143"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="667"
+			xml:space="preserve"
+			y="140">Automotive</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="663.5"
+			xml:space="preserve"
+			y="154.5">1992-2011</text>
+
+		<ellipse
+			cx="614.78"
+			cy="131.5"
+			fill="none"
+			rx="18.5"
+			ry="18.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="616.28"
+			xml:space="preserve"
+			y="128">Service</text>
+
+		<ellipse
+			cx="635.05"
+			cy="353"
+			fill="none"
+			rx="32.5"
+			ry="32.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="661.55"
+			xml:space="preserve"
+			y="359.45">Problem Solving</text>
+
+		<ellipse
+			cx="660.68"
+			cy="384"
+			fill="none"
+			rx="10.5"
+			ry="10.5"
+			class="ellipse-o"
+			transform="matrix(1 0 0 1 0 0)"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="690.18"
+			xml:space="preserve"
+			y="389.45">Algorithms</text>
+
+		<ellipse
+			cx="637.47"
+			cy="394"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			transform="matrix(1 0 0 1 0 0)"
+			x="657.97"
+			xml:space="preserve"
+			y="402.45">Puzzles</text>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="615.5"
+			xml:space="preserve"
+			y="115">Mechanical</text>
+
+		<ellipse
+			cx="612.74"
+			cy="72"
+			fill="none"
+			rx="7.5"
+			ry="7.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="633"
+			xml:space="preserve"
+			y="77">Physics</text>
+
+		<ellipse
+			cx="364.74"
+			cy="168.5"
+			fill="none"
+			rx="26"
+			ry="26"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="391.74"
+			xml:space="preserve"
+			y="174.45">Data Analysis</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="390"
+			xml:space="preserve"
+			y="187">2023-P</text>
+
+		<ellipse
+			cx="333.5"
+			cy="326.5"
+			fill="none"
+			rx="28"
+			ry="28"
+			class="ellipse-o"/>
+		<text
+			class="normal-font bold-font"
+			text-anchor="middle"
+			x="333.5"
+			xml:space="preserve"
+			y="323.5">CX</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="334"
+			xml:space="preserve"
+			y="338">2014</text>
+
+		<ellipse
+			cx="283.49"
+			cy="381.5"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="283.99"
+			xml:space="preserve"
+			y="387">IA</text>
+		<text
+			class="normal-font year"
+			text-anchor="middle"
+			x="283"
+			xml:space="preserve"
+			y="400">2010</text>
+
+		<ellipse
+			cx="302.44"
+			cy="381.05"
+			fill="none"
+			rx="9"
+			ry="9"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			transform="matrix(1 0 0 1 0 0)"
+			x="334.44"
+			xml:space="preserve"
+			y="385">Copywriting</text>
+
+		<ellipse
+			cx="326.5"
+			cy="413"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="338.5"
+			xml:space="preserve"
+			y="418.95">Ogilvy</text>
+
+		<ellipse
+			cx="495.68"
+			cy="480"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="487.18"
+			xml:space="preserve"
+			y="485.45">Sales</text>
+
+		<ellipse
+			cx="526.24"
+			cy="472"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="562.74"
+			xml:space="preserve"
+			y="477.45">Business Law</text>
+
+		<ellipse
+			cx="727.44"
+			cy="348.05"
+			fill="none"
+			rx="9"
+			ry="9"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="755.44"
+			xml:space="preserve"
+			y="353">Linguistics</text>
+
+		<ellipse
+			cx="67.38"
+			cy="224"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="60.88"
+			xml:space="preserve"
+			y="229.45">Agile</text>
+
+		<ellipse
+			cx="97.94"
+			cy="216"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="152.44"
+			xml:space="preserve"
+			y="221.45">Project Management</text>
+
+		<ellipse
+			cx="76.71"
+			cy="194"
+			fill="none"
+			rx="17.5"
+			ry="17.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="133.21"
+			xml:space="preserve"
+			y="197.45">Software Engineering</text>
+
+		<ellipse
+			cx="721.66"
+			cy="333"
+			fill="none"
+			rx="9"
+			ry="9"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="747.66"
+			xml:space="preserve"
+			y="337.95">Metaphor</text>
+
+		<ellipse
+			cx="257.53"
+			cy="420"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="278.53"
+			xml:space="preserve"
+			y="425.95">Morville</text>
+
+		<ellipse
+			cx="282.8"
+			cy="216"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="296.8"
+			xml:space="preserve"
+			y="220.95">Tufte</text>
+
+		<ellipse
+			cx="701.5"
+			cy="313"
+			fill="none"
+			rx="25"
+			ry="25"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="739.5"
+			xml:space="preserve"
+			y="318">Communication</text>
+
+		<ellipse
+			cx="107.94"
+			cy="149.55"
+			fill="none"
+			rx="7.5"
+			ry="7.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="129.44"
+			xml:space="preserve"
+			y="154">Security</text>
+
+		<ellipse
+			cx="167.86"
+			cy="501.55"
+			fill="none"
+			rx="13"
+			ry="13"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="217.36"
+			xml:space="preserve"
+			y="507">AI / Machine Learning</text>
+
+		<ellipse
+			cx="630.44"
+			cy="449.55"
+			fill="none"
+			rx="7.5"
+			ry="7.5"
+			class="ellipse-o"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			transform="matrix(1 0 0 1 0 0)"
+			x="659.94"
+			xml:space="preserve"
+			y="455">Economics</text>
+
+		<ellipse
+			cx="632.8"
+			cy="480"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="659.8"
+			xml:space="preserve"
+			y="485.95">Kahneman</text>
+		<text
+			class="normal-font year current"
+			text-anchor="middle"
+			x="212"
+			xml:space="preserve"
+			y="521.95">2005-P</text>
+
+		<ellipse
+			cx="352.8"
+			cy="510"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="362.8"
+			xml:space="preserve"
+			y="514.95">O&#x27;Neil</text>
+
+		<ellipse
+			cx="411.53"
+			cy="214"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="427.53"
+			xml:space="preserve"
+			y="218.95">Nesbitt</text>
+
+		<ellipse
+			cx="645.82"
+			cy="45"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="660.82"
+			xml:space="preserve"
+			y="48.95">Sagan</text>
+
+		<ellipse
+			cx="679.63"
+			cy="68"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="701.63"
+			xml:space="preserve"
+			y="72.95">Feynman</text>
+
+		<ellipse
+			cx="271.83"
+			cy="532"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="291.83"
+			xml:space="preserve"
+			y="536.95">Hawkins</text>
+
+		<ellipse
+			cx="666.82"
+			cy="323"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="677.82"
+			xml:space="preserve"
+			y="328.95">Fogg</text>
+
+		<ellipse
+			cx="653.77"
+			cy="297"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="666.77"
+			xml:space="preserve"
+			y="302.95">Dweck</text>
+
+		<ellipse
+			cx="371.83"
+			cy="124"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="381.83"
+			xml:space="preserve"
+			y="128.95">Silver</text>
+			
+		<ellipse
+			cx="280"
+			cy="134"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="297"
+			xml:space="preserve"
+			y="139">Knaflic</text>			
+
+		<ellipse
+			cx="411.83"
+			cy="140"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="421.83"
+			xml:space="preserve"
+			y="144.95">Siegel</text>
+
+		<ellipse
+			cx="471.83"
+			cy="150"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="481.83"
+			xml:space="preserve"
+			y="154.95">Kline</text>
+
+		<ellipse
+			cx="525.47"
+			cy="268"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"
+			transform="matrix(1 0 0 1 0 0)"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			transform="matrix(1 0 0 1 0 0)"
+			x="538.47"
+			xml:space="preserve"
+			y="272.95">Thaler</text>
+
+		<ellipse
+			cx="740.47"
+			cy="408"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="754.47"
+			xml:space="preserve"
+			y="412.95">Polgar</text>
+
+		<ellipse
+			cx="393.3"
+			cy="420"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="414.3"
+			xml:space="preserve"
+			y="425.95">Norman</text>
+
+		<ellipse
+			cx="485.82"
+			cy="520"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="504.82"
+			xml:space="preserve"
+			y="524.95">Hopkins</text>
+
+		<ellipse
+			cx="21.83"
+			cy="170"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="46.83"
+			xml:space="preserve"
+			y="173.95">Cockburn</text>
+
+		<ellipse
+			cx="659.66"
+			cy="184"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="678.66"
+			xml:space="preserve"
+			y="188.95">Ericsson</text>
+
+		<ellipse
+			cx="515.47"
+			cy="170"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="538.47"
+			xml:space="preserve"
+			y="174.95">Mosteller</text>
+
+		<ellipse
+			cx="452.3"
+			cy="325"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="467.3"
+			xml:space="preserve"
+			y="330.95">Young</text>
+
+		<ellipse
+			cx="345.53"
+			cy="228"
+			fill="none"
+			rx="12.5"
+			ry="12.5"
+			class="ellipse-author"/>
+		<text
+			class="normal-font"
+			text-anchor="middle"
+			x="368.53"
+			xml:space="preserve"
+			y="231.95">Schelling</text>
+			
+			
+			
+		<use
+			id="svg_174"
+			class="header"
+			transform="matrix(1 0 0 1 0 0) matrix(0.142074 0 0 0.142074 -23 553)"
+			x="157"
+			xlink:href="#svg_166"
+			y="-3744.22"/>
+		<text
+			class="header"
+			font-family="Helvetica"
+			font-size="24"
+			font-weight="300"
+			x="117"
+			xml:space="preserve"
+			y="60">KNOWLEDGE</text>			
+		<text
+			class="header"
+			font-family="Helvetica"
+			font-size="24"
+			font-weight="300"
+			x="117"
+			xml:space="preserve"
+			y="83">HOTSPOTS</text>
+	</g>
+</svg>
