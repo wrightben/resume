@@ -1,4 +1,4 @@
-### Types of work I've done
+### Programming-related personal projects
 * Basic Algorithms (Permutation Ordering, Path Counting, etc)
 * Word Search Solver
 * Sudoku Solver
