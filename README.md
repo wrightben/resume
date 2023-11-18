@@ -3,7 +3,7 @@
 * Word Search Solver
 * Sudoku Solver
 * Texas Holdem
-* Bookmark Chess
+* BookmarkChess
 * WebGL (GE.com)
 * SVG Visualization
 * SEO
