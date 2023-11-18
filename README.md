@@ -2,7 +2,7 @@
 * Basic Algorithms (Permutation Ordering, Path Counting, etc)
 * Word Search Solver
 * Sudoku Solver
-* Texas Holdem
+* Texas Hold'em
 * BookmarkChess
 * WebGL (GE.com)
 * SVG Visualization
