@@ -2,7 +2,7 @@
 * Basic Algorithms (Permutation Ordering, Path Counting, etc)
 * Word Search Solver
 * Sudoku Solver
-* Texas Hold'em
+* Texas Hold'em (https://github.com/wrightben/texas-holdem)
 * DataTables.js
 * BookmarkChess
 * WebGL (GE.com)
