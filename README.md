@@ -4,7 +4,7 @@
 * Sudoku Solver
 * [Texas Hold'em](https://github.com/wrightben/texas-holdem)</a>—Kernel for game play and data analysis
 * DataTables.js
-* Chess—Fully-functional high-speed wireless ready prototype emphasizing ease-of-use features (BookmarkChess.com)
+* Chess—High-speed wireless ready prototype emphasizing ease-of-use features (BookmarkChess.com)
 * WebGL (GE.com)
 * SVG Data Visualization
 * SEO
