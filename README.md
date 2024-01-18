@@ -6,7 +6,7 @@
 * DataTables.js
 * Chess—Fully-functional high-speed wireless ready design to prototype ease-of-use features (BookmarkChess.com)
 * WebGL (GE.com)
-* SVG Visualization
+* SVG Data Visualization
 * SEO
 * Bash Process Chaining
 * Regular Expressions
