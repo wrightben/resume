@@ -12,7 +12,9 @@
 * Regular Expressions
 * Google Maps (Dodge.com)
 * Payment Gateways - Authorize.Net
-* SQL Reporting
+* JavaMail API
+* SQL Reporting (Paradox, Java, and other languages)
+* Perl CGI
 
 <a href="http://wrightben.com/knowledge" target="_blank" title="Knowledge Hotspots" class="outbound">Things I know something about</a><br />
 <a href="http://wrightben.com/books" target="_blank" title="Digital Bookshelf - Benjamin Wright" class="outbound">My digital bookshelf</a>
