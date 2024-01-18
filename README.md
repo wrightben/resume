@@ -4,12 +4,15 @@
 * Sudoku Solver
 * Texas Hold'em (https://github.com/wrightben/texas-holdem)
 * DataTables.js
+####2012
 * Chess—Fully-functional high-speed wireless ready design to prototype ease-of-use features (BookmarkChess.com)
 * WebGL (GE.com)
 * SVG Data Visualization
+####2010
 * SEO
 * Bash Process Chaining
 * Regular Expressions
+####2008
 * Google Maps (Dodge.com)
 * Payment Gateways—Authorize.Net
 * JavaMail API
