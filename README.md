@@ -13,7 +13,7 @@
 * Google Maps (Dodge.com)
 * Authorize.net payment form (HealthMedia.com)
 * JavaMail API
-* SQL Reporting—Paradox, Java, and other languages
+* SQL Reporting—Paradox, Java, iText, and other languages
 * Perl CGI
 
 <a href="http://wrightben.com/knowledge" target="_blank" title="Knowledge Hotspots" class="outbound">Things I know something about</a><br />
