@@ -2,7 +2,7 @@
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 * Word Search Solver
 * Sudoku Solver
-* Texas Hold'em (https://github.com/wrightben/texas-holdem)
+* Texas Hold'em—Kernel for game play and data analysis (https://github.com/wrightben/texas-holdem)
 * DataTables.js
 * Chess—Fully-functional high-speed wireless ready prototype emphasizing ease-of-use features (BookmarkChess.com)
 * WebGL (GE.com)
