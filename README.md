@@ -5,6 +5,7 @@
 * Texas Hold'em (https://github.com/wrightben/texas-holdem)
 * DataTables.js
 * Chess—High-speed wireless ready chessboard (BookmarkChess.com)
+  - UX prototype designed to demonstrate easy-of-use features
 * WebGL (GE.com)
 * SVG Visualization
 * SEO
