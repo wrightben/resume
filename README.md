@@ -4,7 +4,7 @@
 * Sudoku Solver
 * Texas Hold'em (https://github.com/wrightben/texas-holdem)
 * DataTables.js
-* BookmarkChess
+* Chess—High-speed wireless ready chessboard (BookmarkChess.com)
 * WebGL (GE.com)
 * SVG Visualization
 * SEO
