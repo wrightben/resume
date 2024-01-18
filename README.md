@@ -1,5 +1,5 @@
 ### Programming-related personal projects
-* Basic Algorithms (Permutation Ordering, Path Counting, etc)
+* Basic Algorithms (Permutations, Paths, Maximization, etc.)
 * Word Search Solver
 * Sudoku Solver
 * Texas Hold'em (https://github.com/wrightben/texas-holdem)
