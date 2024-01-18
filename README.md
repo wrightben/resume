@@ -11,7 +11,7 @@
 * Bash Process Chaining
 * Regular Expressions
 * Google Maps (Dodge.com)
-* Payment Gateways—Authorize.Net
+* Authorize.net payment form
 * JavaMail API
 * SQL Reporting—Paradox, Java, and other languages
 * Perl CGI
