@@ -3,6 +3,7 @@
 * Word Search Solver
 * Sudoku Solver
 * [Texas Hold'em](https://github.com/wrightben/texas-holdem)</a>—Kernel for game play and data analysis
+* phpLiteAdmin for club/small business
 * DataTables.js
 * Chess—High-speed wireless ready prototype accenting ease-of-use elements (BookmarkChess.com)
 * WebGL (GE.com)
