@@ -1,10 +1,3 @@
-Starbucks (and your bank) are the best websites on the Internet.
-Google should offer chess and a star app on the home page.
-My coffee maker knows when my milk is done frothing.
-I can't understand why my home Interent router doesn't put "regular cable" on all my TVs.
-
-Programming, as I once imagined it, is all done.
-
 ### Programming-related personal projects
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 * Word Search Solver
