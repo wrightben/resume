@@ -9,6 +9,7 @@
 * WebGL (GE.com)
 * SVG Data Visualization
 * SEO
+* Automated Google Search (using iFrame)
 * Bash Process Chaining
 * Regular Expressions
 * Google Maps (Dodge.com)
