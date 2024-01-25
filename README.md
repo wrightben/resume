@@ -20,7 +20,7 @@
 	- HTML Small Business Website (Language Center)
 	- DNS MX Records
 	- Photoshop
-	- AJAX Small Business Website (Appraisal Appointment Scheduler)
+	- Small Business Website — Ajax (Home Value Appraisal, Appointment Scheduler)
 * Real Estate Listing Application—perl
 * JavaMail API
 * SQL Reporting—Paradox, Java, iText, and other languages
