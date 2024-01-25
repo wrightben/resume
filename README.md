@@ -1,4 +1,7 @@
 ### Programming Projects
+* Calculators
+	- Pool Shot Angle Calculator
+	- Mortgage Calculator
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 * Word Search Solver
 * Sudoku Solver
