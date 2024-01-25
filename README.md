@@ -26,7 +26,7 @@
 	- Photoshop
 * Small Business Website — Ajax (Appraisal Business, Appointment Scheduler)
 * JavaMail API
-* Real Estate Listing Application—perl
+* Real Estate Listing Application—Perl
 * SQL Reporting—Paradox, Java, iText, and other languages; NetBeans GUI
 * Perl CGI
 * Actionscript for Macromedia Flash
