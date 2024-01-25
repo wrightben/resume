@@ -1,7 +1,7 @@
 ### Programming Projects
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 	* Calculators
-		* Pool Shot Angle
+		* Billiards Shot Angle
 		* Mortgage Amortization
 		* Football Throw Distance
 * Word Search Solver
