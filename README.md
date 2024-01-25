@@ -3,7 +3,7 @@
 	* Calculators
 		* Pool Shot Angle
 		* Mortgage Amortization
-		* Football Max Distance
+		* Football Throw Distance
 * Word Search Solver
 * Sudoku Solver
 * [Texas Hold'em](https://github.com/wrightben/texas-holdem)</a>—Kernel for game play and data analysis
