@@ -1,4 +1,4 @@
-### Programming-related personal projects
+### Programming Projects
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 * Word Search Solver
 * Sudoku Solver
