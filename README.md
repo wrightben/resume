@@ -1,8 +1,8 @@
 ### Programming Projects
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 	* Calculators
-		- Pool Shot Angle Calculator
-		- Mortgage Calculator
+		* Pool Shot Angle Calculator
+		* Mortgage Calculator
 * Word Search Solver
 * Sudoku Solver
 * [Texas Hold'em](https://github.com/wrightben/texas-holdem)</a>—Kernel for game play and data analysis
