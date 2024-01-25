@@ -17,7 +17,7 @@
 * Authorize.net payment form (HealthMedia.com)
 * Chat Client—Java
 * Freelance
-	- HTML Small Business Website (Language Center)
+	- Small Business Website — HTML (Language Center)
 	- DNS MX Records
 	- Photoshop
 	- Small Business Website — Ajax (Home Value Appraisal, Appointment Scheduler)
