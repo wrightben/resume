@@ -6,10 +6,11 @@
 * phpLiteAdmin for club/small business
 * DataTables.js
 * Chess—High-speed wireless ready prototype accenting ease-of-use elements ([BookmarkChess.com](https://www.youtube.com/watch?v=wQLXnEwzpYo))
+* Small Business Website (Soccer Club)
 * WebGL (GE.com)
 * SVG Data Visualization
 * SEO
-* Automated Google Search (using iFrame)
+* Automated Google Search—iFrame
 * Bash Process Chaining
 * Regular Expressions
 * Google Maps (Dodge.com)
