@@ -24,7 +24,7 @@
 	- HTML (Language Center)
 	- DNS MX Records
 	- Photoshop
-* Small Business Website — Ajax (Appraisal Business, Appointment Scheduler)
+* Small Business Website — Ajax (Appraisal Business)
 * JavaMail API
 * Real Estate Listing Application—Perl
 * SQL Reporting—Paradox, Java, iText, and other languages; NetBeans GUI
