@@ -3,7 +3,7 @@
 	* Calculators
 		* Billiards Shot Angle
 		* Mortgage Amortization
-		* Football Throw Distance
+		* Projectile Trajectory (Football Pass Distance)
 * Word Search Solver
 * Sudoku Solver
 * [Texas Hold'em](https://github.com/wrightben/texas-holdem)</a>—Kernel for game play and data analysis
