@@ -25,8 +25,8 @@
 	- DNS MX Records
 	- Photoshop
 * Small Business Website—Ajax (Appraisal Business)
-* JavaMail API
 * Real Estate Listing Application—Perl
+* JavaMail API
 * SQL Reporting—Paradox, Java, iText, and other languages; NetBeans GUI
 * Perl CGI
 * Actionscript for Macromedia Flash
