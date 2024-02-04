@@ -1,4 +1,5 @@
 ### Programming Projects
+* Minesweeper
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 	* Calculators
 		* Billiards Shot Angle
