@@ -1,5 +1,5 @@
 ### Programming Projects
-* Minesweeper
+* [Minesweeper](http://wrightben.com/minesweeper)
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
 	* Calculators
 		* Billiards Shot Angle
