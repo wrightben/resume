@@ -1,3 +1,6 @@
+### Resume
+[http://wrightben.com/](http://wrightben.com/)
+
 ### Programming Projects
 * [Minesweeper](http://wrightben.com/minesweeper)
 * Basic Algorithms—Permutations, Paths, Maximization, etc.
@@ -7,7 +10,7 @@
 		* Trajectory
 * Word Search Solver
 * Sudoku Solver
-* [Texas Hold'em](https://github.com/wrightben/texas-holdem)</a>—Kernel for game play and data analysis
+* [Texas Hold'em](https://github.com/wrightben/texas-holdem)—Kernel for game play and data analysis
 * Small Business Website—phpLiteAdmin (Soccer Club)
 * DataTables.js (Verisign.com)
 * Chess—High-speed wireless ready prototype accenting ease-of-use elements ([BookmarkChess.com](https://www.youtube.com/watch?v=wQLXnEwzpYo))
