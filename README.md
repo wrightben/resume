@@ -12,7 +12,7 @@
 * Sudoku Solver
 * [Texas Hold'em](https://github.com/wrightben/texas-holdem)—Kernel for game play and data analysis
 * Small Business Website—phpLiteAdmin (Soccer Club)
-* DataTables.js (Verisign.com)
+* [DataTables.js and SQLite (Books)](http://wrightben.com/books) (Verisign.com)
 * Chess—High-speed wireless ready prototype accenting ease-of-use elements ([BookmarkChess.com](https://www.youtube.com/watch?v=wQLXnEwzpYo))
 * Small Business Website (Soccer Club)
 * WebGL (GE.com)
@@ -35,5 +35,3 @@
 * Perl CGI
 * Actionscript for Macromedia Flash
 * Copied "SNAKE" on Apple IIe
-
-<a href="http://wrightben.com/books" target="_blank" title="Books - wrightben.com" class="outbound">Books - DataTables.js</a>
