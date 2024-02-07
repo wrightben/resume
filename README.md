@@ -36,5 +36,4 @@
 * Actionscript for Macromedia Flash
 * Copied "SNAKE" on Apple IIe
 
-<a href="http://wrightben.com/knowledge" target="_blank" title="Knowledge Hotspots" class="outbound">Things I know something about</a><br />
-<a href="http://wrightben.com/books" target="_blank" title="Digital Bookshelf - Benjamin Wright" class="outbound">My digital bookshelf</a>
+<a href="http://wrightben.com/books" target="_blank" title="Books - wrightben.com" class="outbound">Books - DataTables.js</a>
