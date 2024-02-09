@@ -3,7 +3,7 @@
 
 ### Programming Projects
 * [Minesweeper](http://wrightben.com/minesweeper)
-* Basic [Algorithms](./../languages/tree/main/Algorithms)—Permutations, Paths, Maximization, etc.
+* Basic [Algorithms](https://github.com/wrightben/languages/tree/main/Algorithms)—Permutations, Paths, Maximization, etc.
 	* Calculators
 		* Billiards Shot Angle
 		* Mortgage Amortization
