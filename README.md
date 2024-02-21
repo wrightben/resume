@@ -2,7 +2,7 @@
 [http://wrightben.com/](http://wrightben.com/)
 
 ### Programming Projects
-* Tic Tac Toe
+* [Tic Tac Toe](http://wrightben.com/tic-tac-toe)
 * [Minesweeper](http://wrightben.com/minesweeper)
 * Basic [Algorithms](https://github.com/wrightben/languages/tree/main/Algorithms)—Permutations, Paths, Maximization, etc.
 	* Calculators
