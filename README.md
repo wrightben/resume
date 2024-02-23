@@ -2,8 +2,8 @@
 [http://wrightben.com/](http://wrightben.com/)
 
 ### Programming Projects
-* [Tic Tac Toe](http://wrightben.com/tic-tac-toe)
-* [Minesweeper](http://wrightben.com/minesweeper)
+* [Tic Tac Toe](https://github.com/wrightben/languages/tree/main/javascript/Games/Tic-Tac-Toe)
+* [Minesweeper](https://github.com/wrightben/languages/tree/main/javascript/Games/Minesweeper)
 * Basic [Algorithms](https://github.com/wrightben/languages/tree/main/Algorithms)—Permutations, Paths, Maximization, etc.
 	* Calculators
 		* Billiards Shot Angle
