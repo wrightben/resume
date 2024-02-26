@@ -2,7 +2,7 @@
 [http://wrightben.com/](http://wrightben.com/)
 
 ### Programming Projects
-* [World Geography](https://github.com/wrightben/languages/tree/main/javascript/Games/World%20Geography)—Memorize the countries of the world
+* [World Map](https://github.com/wrightben/languages/tree/main/javascript/Games/World%Map)—Memorize the countries of the world
 * [Tic Tac Toe](https://github.com/wrightben/languages/tree/main/javascript/Games/Tic-Tac-Toe)
 * [Minesweeper](https://github.com/wrightben/languages/tree/main/javascript/Games/Minesweeper)
 * Basic [Algorithms](https://github.com/wrightben/languages/tree/main/Algorithms)—Permutations, Paths, Maximization, etc.
