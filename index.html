@@ -31,7 +31,7 @@
 				font-family: "Helvetica", sans-serif;
 				font-size: 1em;				
 				font-weight: 300;
-				line-height: 1.45em;
+
 				color: #555;
 				
 				margin: 0px;
@@ -53,11 +53,9 @@
 			}
 			h1 {
 				font-size: 2em;
-				margin-bottom: -0.1em;
 			}
 			h2, h3 {
 				font-size: 1.5em;
-				margin-bottom: 1em;			
 			}
 			h3 {
 				font-size: 1.1em;
@@ -66,15 +64,20 @@
 				color: #BBB;
 			}		
 			p {
-				margin: 1em 0;
-				line-height: 1.5em;
+				line-height: 2.5ex;
+			}
+			p:not(:first-child) {
+/* 
+				margin-top: 2.5ex;
+				border: 1px solid blue;
+ */
 			}
 			div.b {
 				clear: both;
-				margin-top: 1.5em;
 			}		
 			#education li {
 				margin-left: 0px;
+				line-height: 2.5ex;
 			}				
 			ul {
 				list-style-type: "- ";
@@ -88,18 +91,17 @@
 				margin-left: 8px;
 			}
 			.format-bold {
-				margin-top: 1.5em;
-				margin-bottom: 0.15em;
+				margin-top: 2.5ex;
 			}			
 			.format-semi-bold {
-				margin-top: 1.5em;
 				color: #050505;
+				margin-bottom: 1.75ex;
 			}
 			.format-semi-bold span, .format-bold span {
 				font: inherit;
+				line-height: 2.5ex;
 			}
 			.format-bold + .format-semi-bold {
-				margin-top: 0;
 			}	
 			span.title {
 				font-weight: 400;
@@ -131,7 +133,7 @@
 				width: 80%;
 			}
 			.ule {
-				margin: 1em 0 0.5em 0;
+				margin: 0;
 				counter-reset: section;
 			}
 			.ule li.company {
@@ -139,35 +141,35 @@
 				margin-right: 1.5em; 
 			}
 			.multiple + .ule {
-				margin-top: .75em;
 			}
 			.liheader {
 				list-style-type: none;
 				margin-left: 0px;
+				margin-bottom: 2ex;
 			}
-			.item {
-				margin-bottom: .2em;
-				border: none;
+			.liheader:not(:first-child) {
+				margin-top: 3.5ex;	
 			}
 			.ml {
-				margin-top: .5em;
-				margin-bottom: .5em;
-				line-height: 1.6em;			
-			}
+				line-height: 2.5ex;			
+			}			
+			.item {
+				border: none;
+				line-height: 2.5ex;
+
+			}			
 			.bold {
 				font-weight: 400;
 			}
 			.italic {
 				font-style: italic;
 			}
-			.pad {
-				margin-top: 1.78em;
-			}
+
 			.item:before {
 			
 			}			
 			.skills .liheader {
-				margin-bottom: 0.75em;
+
 			}
 			#contact {
 				position: absolute;
@@ -230,9 +232,9 @@
 				<h1>BENJAMIN WRIGHT</h1>
 				
 				<div id="contact">
-					<p><a href="tel:248-224-5833" class="hl nu">(248) 224-5833</a></p>
-					<p><a href="mailto:mail@wrightben.com" class="hl nu">mail@wrightben.com</a></p>	
-					<p><a href="https://www.instagram.com/coachwrightben/" class="hl nu outbound" target="_blank">@coachwrightben</a></p>				
+					<div class="ml"><a href="tel:248-224-5833" class="hl nu">(248) 224-5833</a></div>
+					<div class="ml"><a href="mailto:mail@wrightben.com" class="hl nu">mail@wrightben.com</a></div>	
+					<div class="ml"><a href="https://www.instagram.com/coachwrightben/" class="hl nu outbound" target="_blank">@coachwrightben</a></div>
 				</div>
 
 
@@ -242,7 +244,7 @@
 						<li class="item bold liheader">PROFESSIONAL POSITIONS</li>
 					</ul>
 					
-					<p>I'm a former Web Senior Software Engineer broadly interested in people and problem-solving.</p>
+					<div>I'm a former Web Senior Software Engineer broadly interested in people and problem-solving.</div>
 				
 					<!-- WE -->		
 					<div class="format-bold"><span class="company">Verisign</span><span class="location">Reston, VA</span></div>
@@ -300,14 +302,14 @@
 						<li class="item bold liheader">MORE ABOUT ME</li>
 					</ul>
 				
-					<p>
+					<div class="ml">
 						<span class="label">Learning</span>
 						<span class="label-summary">I highly value practical self-study. I enjoy business administration, computer science, and behavioral science.</span>
-					</p>
-					<p>							
+					</div>
+					<div class="ml" style="margin-top: 2.5ex;">
 						<span class="label">Fitness</span>
 						<span class="label-summary">I have 30 years of fitness experience that includes cycling, marathons, and an Olympic distance triathlon, as well as common achievements in strength training.</span>
-					</p>
+					</div>
 				
 				</div>					
 
@@ -324,12 +326,12 @@
 						<li class="item">Communication skills that encourage openness, clarity, reasonableness, coherence, and action</li>
 						
 						<!-- BUSINESS -->
-						<li class="item bold liheader pad">BUSINESS ADMINISTRATION SKILLS</li>
+						<li class="item bold liheader">BUSINESS ADMINISTRATION SKILLS</li>
 						<li class="item">Sales and project management experience</li>
 						<li class="item">Courses in accounting, finance, marketing, and law</li>
 
 						<!-- TECHNICAL -->
-						<li class="item bold liheader pad">TECHNICAL SKILLS&mdash;<a href="https://www.hackerrank.com/profile/wrightben" target="_blank" title="HackerRank Certificates" class="outbound">HackerRank</a></li>
+						<li class="item bold liheader">TECHNICAL SKILLS&mdash;<a href="https://www.hackerrank.com/profile/wrightben" target="_blank" title="HackerRank Certificates" class="outbound">HackerRank</a></li>
 						<li class="item"><a href="https://github.com/wrightben?tab=repositories" target="_blank" title="GitHub - wrightben" class="outbound">GitHub</a>, Excel, SQL</li>
 						<li class="item">Python, JavaScript, Perl, Bash (Unix shell), PHP, and Java</li>
 						
